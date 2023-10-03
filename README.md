@@ -3,5 +3,5 @@
 ## Install
 
 ```r
-remotes::install_github("it4innovations/rtus")
+remotes::install_git("https://github.com/It4innovations/rtus")
 ```
