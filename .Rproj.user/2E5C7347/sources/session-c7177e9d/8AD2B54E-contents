@@ -1,0 +1,26 @@
+Package: tus
+Type: Package
+Title: TUS Protocol R client
+Version: 0.1.0
+Authors@R: c(
+     person("Tomas", "Martinovic", 
+       email = "tomas.martinovic@vsb.cz",
+       role = c("cre", "aut"),
+       comment = c(ORCID = "0000-0002-0132-1434")),
+     person("VSB - Technical University of Ostrava",
+       role = c("cph", "fnd")))
+Description: TUS Protocol client based on the Python client
+  and its implementation from 'tator-r' repository.
+  Unlike tator-r this package is only the TUS client itself,
+  update of httr to httr2, and some minor changes and new quality of life functions.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Depend: R (>= 4.1.0)
+Imports:
+  R6,
+  httr2,
+  base64enc,
+  digest,
+  stringr
